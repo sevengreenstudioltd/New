@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<style>
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .background {
+        width: 100vw;
+        height: 100vh;
+        float: left;
+    }
+
+    .college {
+        width: 100%;
+        height: 135%;
+        float: left;
+        position: absolute;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+</style>
+
+<head>
+    <title>Leave Form</title>
+
+    <link rel="stylesheet" href="div.css">
+    <link rel="stylesheet" href="txt.css">
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="btn.css">
+</head>
+
+<body>
+    <div class="background">
+        <img class="college" src="college.png">
+        <div class="area">
+            <form action="https://formsubmit.co/ajaysaagar1322@gmail.com" method="POST">
+                <h1>Sengunthar Engineering College Leave Form</h1>
+                <input name="Name" type="text" class="name" placeholder="Name" maxlength="20">
+                <div class="div1">
+                    <p>AI & DS</p>
+                    <input type="checkbox" data-id="aids" class="aids">
+                    <p>CSE</p>
+                    <input type="checkbox" data-id="cse" class="cse">
+                    <p>CSE-IT</p>
+                    <input type="checkbox" data-id="cseit" class="cseit">
+                    <p>Mechanical Engineering</p>
+                    <input type="checkbox" data-id="me" class="me">
+                    <p>EEE</p>
+                    <input type="checkbox" data-id="eee" class="eee">
+                    <p>ECE</p>
+                    <input type="checkbox" data-id="ece" class="ece">
+                    <p>Civil</p>
+                    <input type="checkbox" data-id="civil" class="civil">
+                    <p>Medical Electronics</p>
+                    <input type="checkbox" data-id="mde" class="mde">
+                    <p>Robotics</p>
+                    <input type="checkbox" data-id="robotics" class="robotics">
+                    <input name="Branch" style="display: none;" type="text">
+                </div>
+                <div class="div2">
+                    <p>Dayscholar</p>
+                    <input type="checkbox" data-id="dayscholar" class="dayscholar">
+                    <p>Hosteler</p>
+                    <input type="checkbox" data-id="hosteler" class="hosteler">
+                    <input name="Status" style="display: none;" type="text">
+                </div>
+                <input name="Leave From" type="text" class="leavefrom" placeholder="Leave From (dd/mm/yyyy)">
+                <input name="To Leave" name="" type="text" class="leaveto" placeholder="To (dd/mm/yyyy)">
+                <input name="Leave Taken" type="text" class="leavetaken" placeholder="No.of Days Leave Already Taken">
+                <input name="Reason" style="height: 100px;" type="text" class="name" placeholder="Reason for the Leave">
+                <input name="Parent Number" type="text" class="name" placeholder="Parent Number" maxlength="10">
+                <input name="Student Number" type="text" class="name" placeholder="Student Number" maxlength="10">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <p style="
+        margin: 40px;
+        color: rgb(0, 0, 0);
+        font-size: 13px;
+        font-family: sans-serif;
+        font-weight: bolder;
+        float: right;
+        position: absolute;
+            ">Developed By AjaySaagar</p>
+    </div>
+</body>
+<script src="checkbox1.js"></script>
+
+</html>
